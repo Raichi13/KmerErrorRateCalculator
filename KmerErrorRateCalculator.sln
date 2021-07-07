@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KmerErrorRateCalculator", "KmerErrorRateCalculator\KmerErrorRateCalculator.csproj", "{4845DFA0-34E5-4F9C-865A-798397D6B3C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4845DFA0-34E5-4F9C-865A-798397D6B3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4845DFA0-34E5-4F9C-865A-798397D6B3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4845DFA0-34E5-4F9C-865A-798397D6B3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4845DFA0-34E5-4F9C-865A-798397D6B3C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5312FC46-1C30-48E9-96FA-D05DB2642570}
+	EndGlobalSection
+EndGlobal
