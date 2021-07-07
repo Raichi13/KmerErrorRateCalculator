@@ -13,9 +13,9 @@ namespace KmerErrorRateCalculator
         static string outputPath = "./output";
         static void Main(string[] args)
         {
-            var k = 7;
+            var k = Int32.Parse(args[0]);
             outputPath += k.ToString();
-            string fastqPath = @"C:\Users\raich\SRR13605612.fastq";
+            string fastqPath = args[1];
             var Reads = GetReadsFromFastq(fastqPath);
             //var b = GetKmerCount(k, Reads.First().Gene,DnaBase);
             var b = new List<output>();
